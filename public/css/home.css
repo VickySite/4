@@ -9,7 +9,7 @@ input[type="radio"] {
     align-items: center;
     position: absolute;
     margin-left: 25%;
-    filter: blur(3px); 
+    filter: blur(4px); 
     /* margin-top: 10%; */
   }
   #catches .blurred {
@@ -308,6 +308,13 @@ svg {
   margin-left: 10%;
   text-align: center;
 }
+.publicity4 {
+  display: block;
+  position: absolute;
+  height: 260px;
+  width: 280px;
+  margin-left: 10%;
+}
 .publicity2 {
   margin-top: 7%;
 }
@@ -383,4 +390,17 @@ svg {
 @keyframes spin {
   from { transform: rotateY(0); }
   to { transform: rotateY(360deg); }
+}
+
+
+.publicity3 {
+  margin-top: 22%;
+  margin-left: 16%;
+}
+.wrapper6 {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.cubeImg2 {
+  height: 200px;
 }
