@@ -314,6 +314,15 @@ svg {
   height: 260px;
   width: 280px;
   margin-left: 10%;
+  animation: 2s ease-out 0s 1 slideInFromTop
+}
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .publicity2 {
   margin-top: 7%;
@@ -325,6 +334,7 @@ svg {
   margin-left: 30%;
   border-radius: 5px;
   padding: 4px;
+  text-align: center;
   box-shadow:
   inset 5px 5px 6px #acacaca5,
   inset -5px -5px 6px rgb(93, 78, 99);
@@ -395,7 +405,16 @@ svg {
 
 .publicity3 {
   margin-top: 22%;
-  margin-left: 16%;
+  margin-left: -5%;
+  animation: 2s ease-out 0s 1 slideInFromBottom;
+}
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .wrapper6 {
   margin-top: 10%;
@@ -403,4 +422,5 @@ svg {
 }
 .cubeImg2 {
   height: 200px;
+  filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.8))
 }
