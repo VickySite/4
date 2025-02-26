@@ -251,6 +251,10 @@ color: #4dd0e1;
       margin-top: 7%;
       margin-left: 37%;
     }
+    .publicity3 {
+      margin-top: -7%;
+      margin-left: 30%;
+    }
     .wrapper5 {
       margin-left: 20%;
   margin-top: 20%;
@@ -423,12 +427,13 @@ color: #4dd0e1;
       .container.swiper{
         display: none;
     } 
-    .publicity {
+    .publicity, .publicity4{
       margin-top: 5%;
       margin-left: 65%;
       height: 380px;
       width: 350px;
     }
+
 
       }
       @media screen and (width: 1024px) {
@@ -442,7 +447,7 @@ color: #4dd0e1;
         .card, .card2, .card3 {
           margin-top: 12%;
         }
-        .publicity {
+        .publicity, .publicity4 {
           margin-top: 70%;
           margin-left: 35%;
           height: 400px;
@@ -568,7 +573,7 @@ color: #4dd0e1;
           .next {
             margin-right: 25%;
           }
-          .publicity {
+          .publicity, .publicity4 {
             margin-top: 70%;
             margin-left: 25%;
             height: 300px;
@@ -613,7 +618,7 @@ color: #4dd0e1;
           .squareContacts {
             margin-top: 40%;
           }
-          .publicity {
+          .publicity, .publicity4 {
             margin-top: 70%;
             margin-left: 30%;
             height: 400px;
@@ -669,7 +674,7 @@ color: #4dd0e1;
         }
        
         @media screen and (height: 800px) {
-          .publicity {
+          .publicity, .publicity4 {
             margin-top: 5%;
             margin-left: 65%;
             height: 400px;
@@ -680,7 +685,7 @@ color: #4dd0e1;
           body {
             margin-bottom: 52%;
           }
-          .publicity {
+          .publicity, .publicity4 {
             margin-top: 70%;
             margin-left: 30%;
             height: 400px;
@@ -699,7 +704,7 @@ color: #4dd0e1;
           body {
             margin-bottom: 52%;
           }
-          .publicity {
+          .publicity, .publicity4 {
             margin-top: 70%;
             margin-left: 30%;
             height: 400px;
