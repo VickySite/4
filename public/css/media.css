@@ -433,8 +433,9 @@ color: #4dd0e1;
       height: 380px;
       width: 350px;
     }
-
-
+    .cubeImg2 {
+      margin-left: -5%;
+    }
       }
       @media screen and (width: 1024px) {
         .cardwrapper {
@@ -485,6 +486,15 @@ color: #4dd0e1;
      }
      .textContent {
       margin-left: 10%;
+     }
+     .share {
+      margin-left: 20%;
+     }
+     .footer3 {
+      margin-left: 42%;
+     }
+     .publicity3 {
+      margin-left: 15%;
      }
       }
 
@@ -582,8 +592,8 @@ color: #4dd0e1;
           .close {
             display: none;
           }
-          .wrapper5 {
-            margin-left: 30%;
+          .publicity3 {
+            margin-left: 20%;
           }
         }
         @media screen and (min-width: 390px) {
@@ -631,10 +641,16 @@ color: #4dd0e1;
             margin-top: 20%;
             margin-left: 25%;
           }
+          .publicity3 {
+            margin-left: 18%;
+          }
         }
         @media screen and (width: 1024px), (width: 912px) {
           body {
             margin-bottom: 47%;
+          }
+          .contactsMain5 {
+            margin-left: 20%;
           }
           .additionalText2 p, .additionalText3 p, .additionalText p, .trainer, 
           .squareFirst, .squareSecond {
@@ -643,6 +659,14 @@ color: #4dd0e1;
           .galeryTexts {
             position: absolute;
             margin-top: 60%;
+          }
+          .publicity4 {
+            margin-top: 5%;
+            margin-left: 70%;
+          }
+          .publicity3 {
+            margin-top: 15%;
+            margin-left: 30%;
           }
           .footer2 {
             margin-top: 70%;
@@ -663,9 +687,12 @@ color: #4dd0e1;
           }
         }
         @media screen and (width: 1024px) {
-          .share{
-            margin-left: 22%;
+          .footer3 {
+            margin-left: 45%;
           }
+          /* .share{
+            margin-left: 22%;
+          } */
         }
         @media screen and (width: 1280px) {
           .share{
@@ -699,7 +726,12 @@ color: #4dd0e1;
             margin-left: 25%;
           }
         }
-        /* asus ne raboti !!! */
+        /* asus !!! */
+        @media screen and (width: 853px){
+          .publicity3 {
+            margin-left: 70%;
+          }
+        }
         @media screen and (height:128px){
           body {
             margin-bottom: 52%;
