@@ -405,7 +405,7 @@ svg {
 
 .publicity3 {
   margin-top: 22%;
-  margin-left: -5%;
+  /* margin-left: -5%; */
   animation: 2s ease-out 0s 1 slideInFromBottom;
 }
 @keyframes slideInFromBottom {
